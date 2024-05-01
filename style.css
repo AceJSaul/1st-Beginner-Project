@@ -1,7 +1,3 @@
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
 .formulario{
     display: flex;
     justify-content: center;
@@ -27,6 +23,7 @@ body{
     width:350px;
     height: 320px;
     
+    
 }
 
 form{
@@ -43,18 +40,21 @@ form input{
     border: none;   
 }
 
+
 #margem button{
     position: absolute;
-    left:21%;
+    left:50%;
+    transform: translate(-50%,0%);
+    width:200px;
     font-size: 29px;
     background-color: hsl(120, 100%, 35%);
     border: none;
     border-radius: 8px;
-
-}
-
-#margem button a{
-    text-decoration: none;
     color: white;
-
 }
+
+#margem button:hover{
+    background-color: hsl(120,100%,45%);
+    cursor:pointer;
+}
+
